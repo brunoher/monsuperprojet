@@ -1,0 +1,25 @@
+.__form > input {
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+
+.__form > input:hover {
+  animation: toto 2s infinite;
+}
+
+
+@keyframes toto {
+    0% {
+        border-radius: 10px;
+        border-color: purple;
+        padding: 0px;
+    }
+
+    100% {
+        border-radius: 30px;
+        border-color: yellow;
+        padding: 30px; 
+    }
+}
+
+
